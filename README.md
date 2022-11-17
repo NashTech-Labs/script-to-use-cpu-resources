@@ -3,3 +3,9 @@ This template contains script files which are useful in generating fake loads to
 
 # How to use?
 - bash generateFakeLoad.sh
+  - Send this file to the virtual machine and observe the spike in traffic rate and Disk usage panels.
+  - Send file using `scp -i fakeTraffic.txt  <username>@host_ip:<vm_path_where_to_send_file>`
+  
+- sh stressCPU.sh
+  - Run this script within the virtaul machine to see clear spike in CPU usage panel.
+
