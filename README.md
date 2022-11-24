@@ -9,3 +9,5 @@ This template contains script files which are useful in generating fake loads to
 - sh stressCPU.sh
   - Run this script within the virtaul machine to see clear spike in CPU usage panel.
 
+# To stress test
+  - curl -s "http://google.com?[1-n]"
